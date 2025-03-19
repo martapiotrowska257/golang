@@ -122,7 +122,7 @@ func WeryfikujPESEL(cyfryPESEL [11]int) bool {
 // Przykład użycia
 func main() {
 	// 
-	birthDate := time.Date(1999, 8, 8, 0, 0, 0, 0, time.UTC)
+	birthDate := time.Date(2004, 9, 30, 0, 0, 0, 0, time.UTC)
 	pesel := GenerujPESEL(birthDate, "K")
 	
 	fmt.Println("Wygenerowany PESEL:", pesel)
