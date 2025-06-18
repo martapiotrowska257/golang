@@ -1,0 +1,5 @@
+extreme_weather_thresholds:
+  high_temperature_celsius: 30.0
+  low_temperature_celsius: -5.0
+  strong_wind_speed_kmh: 70.0
+  heavy_precipitation_mm_daily: 50.0
